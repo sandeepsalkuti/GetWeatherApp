@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>WeatherApp</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+    <script type="text/javascript" src="connect.js"></script>
+    <style>
+    body{
+    background-image:url("weather3.jpg");
+}
+    </style>
+  </head>
+  <body>
+    <h1> WeatherApp </h1>
+     <!-- <div class="row backgroundimg">  -->
+        <!--<img src="weather.jpg" class="mx-auto d-block" style="width:auto" style="height:auto"> --> 
+       <!--  <div class="thumb" data-image-src="WeatherApplab2/weather.jpg"> -->
+        <div class="jumbotron">
+          <div class="container">    
+        <div class="form-group">
+              <label for="city"><b> City:</b></label>
+             <input type="text" class="form-control" id="city" placeholder="Enter City Name" name="cityName">
+             <input type="text" class="form-control" id="statecode" placeholder="Enter state code" name="statecode">
+            </div>
+            <!--<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">  -->
+            <button type="submit" class="btn btn-primary" onclick="Connect()">Submit</button><br/>
+            <!-- <img src="https://www.countryflags.io/be/flat/64.png"> -->
+          </div>
+        </div>
+
+
+
+        <div class="jumbotron">
+          <div class="container-fluid">
+          <h2>Current Forecast</h2><br/>  
+           <div class="row row-cols-1"> 
+            <div class="col"></div>
+            <!-- <h6>Date&Time:<img src="calendar.png" alt="calendar symbol" style="width:50px;height:50px;">
+            </h6><p id='g'></p> -->
+            <div class="col"></div>
+            <h6>Temparature:<img src="hot.png" alt="temparature symbol" style="width:50px;height:50px;">
+            </h6><p id='c'></p>
+            <div class="col"></div>
+            <h6>Wind:<img src="wind.png" alt="wind symbol" style="width:50px;height:50px;">
+            </h6><p id='d'></p>
+            <div class="col"></div>
+            <h6>Pressure:<img src="pressure.png" alt="pressure symbol" style="width:50px;height:50px;">
+            </h6><p id='e'></p>
+            <div class="col"></div>
+            <h6>Humidity:<img src="humidity.png" alt="humidity symbol" style="width:50px;height:50px;">
+            </h6><p id='f'></p>
+            </div>
+            </div>
+        </div>
+
+
+        
+        <div class="jumbotron">
+            <div class="container-fluid">
+            <h2>5 Hours Forecast</h2><br/>  
+             <div class="row row-cols-1"> 
+              <div class="col"></div>
+              <h6>Date&Time:<img src="calendar.png" alt="calendar symbol" style="width:50px;height:50px;">
+              </h6><p id='b'></p>
+              <div class="col"></div>
+              <h6>Temparature:<img src="hot.png" alt="temparature symbol" style="width:50px;height:50px;">
+              </h6><p id='x'></p>
+              <div class="col"></div>
+              <h6>Wind:<img src="wind.png" alt="wind symbol" style="width:50px;height:50px;">
+              </h6><p id='y'></p>
+              <div class="col"></div>
+              <h6>Pressure:<img src="pressure.png" alt="pressure symbol" style="width:50px;height:50px;">
+              </h6><p id='z'></p>
+              <div class="col"></div>
+              <h6>Humidity:<img src="humidity.png" alt="humidity symbol" style="width:50px;height:50px;">
+              </h6><p id='a'></p>
+              </div>
+              </div>
+          </div>
+        
+   
+        <!-- <pre class="font-weight-bold"> 
+            This application denotes weather report of city.
+        </pre>  -->
+        <h3>Units and Measurements</h3>    
+        <dl>
+          <dt>Temprature</dt>
+          <dd><b>-Temperature (default Celcius)</b></dd>
+          <dt>Wind</dt>
+          <dd><b>-Wind speed (Default m/s)</b></dd>
+          <dt>Pressure</dt>
+          <dd><b>-Pressure (mb)</b></dd>
+          <dt>Humidity</dt>
+          <dd><b>-Relative humidity (%)</b></dd>
+        </dl>     
+      </div>
+      <div>
+      <footer><b>Designed and Developed by Sandeep and Pranathi </b></footer>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>div>
+  </body>
+</html>
